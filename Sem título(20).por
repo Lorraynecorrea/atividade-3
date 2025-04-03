@@ -1,0 +1,35 @@
+programa {
+  funcao inicio() {
+     inteiro numero, quantidade
+    
+    escreva()
+    leia (numero, quantidade)
+
+    escolha (numero){
+      caso 100:
+        escreva (quantidade * 1.70)
+        pare
+
+      caso 101:
+        escreva (quantidade * 2.30)
+        pare
+
+      caso 102:
+           escreva (quantidade * 2.60)
+        pare
+      caso 103:
+           escreva (quantidade * 2.40)
+        pare
+      caso 104:
+           escreva (quantidade * 2.50)
+        pare
+      caso 105:
+           escreva (quantidade)
+        pare
+      caso contrario:
+          escreva ("código inválido")
+        retorne
+    }
+  }
+}
+   
